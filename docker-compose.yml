@@ -1,0 +1,10 @@
+version: "3.2"
+
+services:
+  web:
+    image: uxr-sapui5
+    ports:
+      - 9080:80
+    volumes:
+      - ./src/:/usr/share/nginx/html/
+    restart: always 

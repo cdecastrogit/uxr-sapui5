@@ -1,0 +1,56 @@
+.applicationListingsPage .sapFDynamicPageHeader.sapFDynamicPageHeaderWithContent {
+    padding-top: 0;
+}
+
+.bodyPanelTitle span {
+    font-size: .875rem;
+}
+
+.noIconTabBar {
+    margin-bottom: 2rem;
+}
+
+.sapUiMedia-Std-Desktop .sapMITB.mainTabs .sapMITBScrollContainer{
+    margin: 0 1.75rem;
+}
+
+.mainTabs .sapMITBContainerContent {
+    height: 0;
+}
+
+.mainTabs .sapMITBText {
+    text-shadow: none !important;
+}
+
+.contentTitle {
+    font-size: 20px !important;
+}
+
+.takeActionBtn .sapUiIcon {
+    transform: rotate(90deg);
+}
+
+.takeActionBtn .sapUiIcon:before {
+    bottom: 0.5rem;
+    position: relative;
+}
+
+.ltr .listingsTable .sapUiTableColRowHdr,
+.ltr .listingsTable .sapUiTableRowHdr,
+.ltr .listingsTable td {
+    border-right: none !important;
+}
+
+.rtl .listingsTable .sapUiTableColRowHdr,
+.rtl .listingsTable .sapUiTableRowHdr,
+.rtl .listingsTable td {
+    border-left: none !important;
+}
+
+.sapMFT strong {
+	font-weight: bold;
+}
+
+.italicized {
+    font-style: italic;
+}
